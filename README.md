@@ -1,1 +1,4 @@
 # HousePricePrediction_SwarajPual
+
+### Project Summary & Business Insights
+Our analysis reveals that property **area** (square footage) has the single strongest influence on housing prices, closely followed by premium features like the number of bathrooms and the presence of air conditioning. Surprisingly, a simple Linear Regression model outperformed the more complex Random Forest Regressor, achieving an $R^2$ score of 65.3% while keeping an average prediction error (MAE) of approximately $970,043. This demonstrates that for smaller, cleaner datasets, simpler models often generalize better without overfitting. Based on these findings, it is highly recommended that real estate businesses optimize their valuation strategies by weighting square footage and climate control systems heavily over basic room counts when pricing new inventory.
